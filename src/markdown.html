@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS VALLBLS FROMDATA Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS VALLBLS FROMDATA Extension Command</h1>
+
+<p>Create value labels for a set of variables
+using values of other variables for the labels</p>
+<div class="syntax">
+<p>STATS VALLBLS FROMDATA<br/>
+VARIABLES = <em>variables</em> or VARPATTERN = &ldquo;<em>regular expression</em>&rdquo;<br/>
+LBLVARS = <em>string variables</em> or LBLPATTERN = &ldquo;<em>regular expression</em>&rdquo;</p>
+
+<p>/OPTIONS<br/>
+VARSPERPASS = <em>integer</em></p>
+
+<p>/OUTPUT<br/>
+SYNTAX = &ldquo;file&rdquo;<br/>
+EXECUTE=YES<sup>&#42;&#42;</sup> or NO</p>
+
+<p>/HELP</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS VALLBLS FROMDATA /HELP displays this help and does nothing else.</p>
+
+
+<pre class="example"><code>STATS VALLBLS FROMDATA VARIABLES = x1 TO x5
+LBLVARS = label.
+</code></pre>
+
+<p>This command creates value labels for a set of variables
+using values of other variables for the labels.  If <em>x</em> is a
+variable having values 1,2,3 and <em>xlabel</em> is a variable having
+values <em>&#39;a&#39;</em>, <em>&#39;b&#39;</em>, <em>&#39;c&#39;</em>, value labels for x are created as</p>
+
+<pre><code>1 &#39;a&#39;
+2 &#39;b&#39;
+3 &#39;c&#39;
+</code></pre>
+
+<p><strong>VARIABLES</strong> lists the variables for which value labels
+should be produced.  <em>TO</em> is supported, but ALL would not make sense here.</p>
+
+<p><strong>VARPATTERN</strong> is a regular expression in quotes that maps
+to the variables to be labelled.  Specify either VARIABLES
+or VARPATTERN but not both.  See below for some pattern examples.</p>
+
+<p><strong>LBLVARS</strong> lists the variables containing the labels corresponding
+to the variables to be labelled.  <em>TO</em> is supported but ALL would not make sense.
+Numeric variables are automatically excluded.</p>
+
+<p><strong>LBLPATTERN</strong> lists a regular expression in quotes that
+expands to the list of label variables.   Numeric variables are automatically excluded.
+The number of label variables can be one to apply the same set of labels
+to all the selected variables or as many as there are input variables.
+If a label variable value is blank, no value label is generated from it.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>VARSPERPASS</strong> specifies how many variables should be processed
+on a single data pass.  The default is 20.  The size of the
+intermediate dataset created by this procedure grows exponentially
+with the number of variables.</p>
+
+<p>Value labels are checked for conflicts, i.e., two different labels
+for the same value of a variable.  <strong>MAXCONFLICTS</strong> specifies the
+maximum number of conflicts to report across all the variables.
+The default value is 100.</p>
+
+<p><strong>REPORTDUPS</strong> specifies whether or not to report whether
+two or more value labels for a variable are identical.</p>
+
+<p><strong>MAXDUPS</strong> specifies the number of duplicates reported.  The
+default is 100.</p>
+
+<h2>OUTPUT</h2>
+
+<p><strong>SYNTAX</strong> specifies a file to which syntax for the labels will be
+written.</p>
+
+<p><strong>EXECUTE</strong> specifies whether or  not to generate the value labels.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
