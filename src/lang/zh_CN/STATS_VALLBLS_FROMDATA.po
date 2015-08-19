@@ -1,0 +1,147 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-05-21 17:51+China Standard Time\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: STATS_VALLBLS_FROMDATA.py:110
+msgid ""
+"This command requires a  newer version the spssaux module.  \n"
+"\n"
+"It can be obtained from the SPSS Community website (www.ibm.com/developerworks/spssdevcentral)"
+msgstr ""
+"此命令需要更高版本的 spssaux 模块。\n"
+"\n"
+"您可以从 SPSS Community Web 站点 (www.ibm.com/developerworks/spssdevcentral) 获取此模块。"
+
+#: STATS_VALLBLS_FROMDATA.py:113
+msgid "variables to label"
+msgstr ""
+"要标注的变量"
+
+#: STATS_VALLBLS_FROMDATA.py:114
+msgid "label variables"
+msgstr ""
+"标签变量"
+
+#: STATS_VALLBLS_FROMDATA.py:116
+msgid ""
+"No variables to label or no labelling variables were specified.\n"
+"If a pattern was used, it may not have matched any variables."
+msgstr ""
+"没有要标注的变量，或者未指定任何标签变量。\n"
+"如果您使用了模式，那么原因可能是该模式未与任何变量匹配。"
+
+#: STATS_VALLBLS_FROMDATA.py:119
+msgid "The number of label variables is different from the number of variables to label"
+msgstr ""
+"标签变量数与所要标注的变量数不同"
+
+#: STATS_VALLBLS_FROMDATA.py:121
+msgid "The label variables must all have type string"
+msgstr ""
+"标签变量必须全都具有字符串类型"
+
+#: STATS_VALLBLS_FROMDATA.py:124
+msgid "The active dataset must have a dataset name in order to use this procedure"
+msgstr ""
+"要使用此过程，活动数据集必须具有数据集名称"
+
+#: STATS_VALLBLS_FROMDATA.py:167
+msgid "Either a variable list or a pattern must be specified but not both: %s"
+msgstr ""
+"必须指定变量列表或模式，但不得同时指定这两者：%s"
+
+#: STATS_VALLBLS_FROMDATA.py:294
+msgid "No value labels were generated."
+msgstr ""
+"未生成任何值标签。"
+
+#: STATS_VALLBLS_FROMDATA.py:311
+msgid "Generated label syntax was applied"
+msgstr ""
+"已应用所生成的标签语法"
+
+#: STATS_VALLBLS_FROMDATA.py:313
+msgid "Generated label syntax was not applied"
+msgstr ""
+"未应用所生成的标签语法"
+
+#: STATS_VALLBLS_FROMDATA.py:314
+msgid "A conflict means that different labels would be applied to the same value."
+msgstr ""
+"冲突表示不同的标签应用于同一个值。"
+
+#: STATS_VALLBLS_FROMDATA.py:315
+msgid "A duplicate means that the same label was used for different values."
+msgstr ""
+"重复表示同一个标签用于不同的值。"
+
+#: STATS_VALLBLS_FROMDATA.py:317
+msgid "Value Label Generation"
+msgstr ""
+"值标签生成"
+
+#: STATS_VALLBLS_FROMDATA.py:319
+msgid "Variable"
+msgstr ""
+"变量"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Duplicate Labels"
+msgstr ""
+"重复标签"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Label Conflicts"
+msgstr ""
+"标签冲突"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Label Source"
+msgstr ""
+"标签源"
+
+#: STATS_VALLBLS_FROMDATA.py:400
+msgid "The specified root name is too long: %s"
+msgstr ""
+"指定的根名称过长：%s"
+
+#: STATS_VALLBLS_FROMDATA.py:454
+msgid "Create dummy variables"
+msgstr ""
+"创建虚变量"
+
+#: STATS_VALLBLS_FROMDATA.py:574
+msgid "---"
+msgstr ""
+"---"
+
+
+
