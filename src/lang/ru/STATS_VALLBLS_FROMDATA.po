@@ -1,0 +1,147 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-05-21 17:51+China Standard Time\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: STATS_VALLBLS_FROMDATA.py:110
+msgid ""
+"This command requires a  newer version the spssaux module.  \n"
+"\n"
+"It can be obtained from the SPSS Community website (www.ibm.com/developerworks/spssdevcentral)"
+msgstr ""
+"Для этой команды необходима более новая версия модуля spssaux. \n"
+"\n"
+"Его можно получить на сайте сообщества SPSS (www.ibm.com/developerworks/spssdevcentral)"
+
+#: STATS_VALLBLS_FROMDATA.py:113
+msgid "variables to label"
+msgstr ""
+"переменные, которые нужно пометить"
+
+#: STATS_VALLBLS_FROMDATA.py:114
+msgid "label variables"
+msgstr ""
+"переменные меток"
+
+#: STATS_VALLBLS_FROMDATA.py:116
+msgid ""
+"No variables to label or no labelling variables were specified.\n"
+"If a pattern was used, it may not have matched any variables."
+msgstr ""
+"Не заданы переменные, которые нужно пометить, или переменные меток.\n"
+"Если использован шаблон, в нем могло не оказаться соответствующих переменных."
+
+#: STATS_VALLBLS_FROMDATA.py:119
+msgid "The number of label variables is different from the number of variables to label"
+msgstr ""
+"Количество переменных меток отличается от количества переменных, которые нужно пометить"
+
+#: STATS_VALLBLS_FROMDATA.py:121
+msgid "The label variables must all have type string"
+msgstr ""
+"Все переменные меток должны быть строкового типа"
+
+#: STATS_VALLBLS_FROMDATA.py:124
+msgid "The active dataset must have a dataset name in order to use this procedure"
+msgstr ""
+"Чтобы использовать эту процедуру, у активного набора данных должно быть имя"
+
+#: STATS_VALLBLS_FROMDATA.py:167
+msgid "Either a variable list or a pattern must be specified but not both: %s"
+msgstr ""
+"Нужно задать или список переменных, или шаблон, но не одновременно: %s"
+
+#: STATS_VALLBLS_FROMDATA.py:294
+msgid "No value labels were generated."
+msgstr ""
+"Метки значений не были созданы."
+
+#: STATS_VALLBLS_FROMDATA.py:311
+msgid "Generated label syntax was applied"
+msgstr ""
+"Был применен сгенерированный синтаксис метки"
+
+#: STATS_VALLBLS_FROMDATA.py:313
+msgid "Generated label syntax was not applied"
+msgstr ""
+"Сгенерированный синтаксис меток не был применен"
+
+#: STATS_VALLBLS_FROMDATA.py:314
+msgid "A conflict means that different labels would be applied to the same value."
+msgstr ""
+"Конфликт означает, что к одному значению могут быть применены различные метки."
+
+#: STATS_VALLBLS_FROMDATA.py:315
+msgid "A duplicate means that the same label was used for different values."
+msgstr ""
+"Дублирование означает, что одна метка может быть применена для различных значений."
+
+#: STATS_VALLBLS_FROMDATA.py:317
+msgid "Value Label Generation"
+msgstr ""
+"Генерирование меток значений"
+
+#: STATS_VALLBLS_FROMDATA.py:319
+msgid "Variable"
+msgstr ""
+"Переменная"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Duplicate Labels"
+msgstr ""
+"Дублированные метки"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Label Conflicts"
+msgstr ""
+"Конфликты меток"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Label Source"
+msgstr ""
+"Источник меток"
+
+#: STATS_VALLBLS_FROMDATA.py:400
+msgid "The specified root name is too long: %s"
+msgstr ""
+"Заданное корневое имя слишком длинное: %s"
+
+#: STATS_VALLBLS_FROMDATA.py:454
+msgid "Create dummy variables"
+msgstr ""
+"Создать фиктивные переменные"
+
+#: STATS_VALLBLS_FROMDATA.py:574
+msgid "---"
+msgstr ""
+"---"
+
+
+
