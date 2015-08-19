@@ -1,0 +1,147 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-05-21 17:51+China Standard Time\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: STATS_VALLBLS_FROMDATA.py:110
+msgid ""
+"This command requires a  newer version the spssaux module.  \n"
+"\n"
+"It can be obtained from the SPSS Community website (www.ibm.com/developerworks/spssdevcentral)"
+msgstr ""
+"Ta komenda wymaga nowszej wersji modelu spssaux.\n"
+"\n"
+"Można ją pobrać z serwisu SPSS Community pod adresem www.ibm.com/developerworks/spssdevcentral"
+
+#: STATS_VALLBLS_FROMDATA.py:113
+msgid "variables to label"
+msgstr ""
+"zmienne do etykietowania"
+
+#: STATS_VALLBLS_FROMDATA.py:114
+msgid "label variables"
+msgstr ""
+"zmienne etykiet"
+
+#: STATS_VALLBLS_FROMDATA.py:116
+msgid ""
+"No variables to label or no labelling variables were specified.\n"
+"If a pattern was used, it may not have matched any variables."
+msgstr ""
+"Nie podano zmiennych do etykietowania ani zmiennych etykietowania.\n"
+"Jeśli użyto wzoru, mógł on nie pasować do żadnej ze zmiennych."
+
+#: STATS_VALLBLS_FROMDATA.py:119
+msgid "The number of label variables is different from the number of variables to label"
+msgstr ""
+"Liczba zmiennych etykiet jest różna od liczby  zmiennych do etykietowania"
+
+#: STATS_VALLBLS_FROMDATA.py:121
+msgid "The label variables must all have type string"
+msgstr ""
+"Wszystkie zmienne etykiet muszą być typu łańcuchowego"
+
+#: STATS_VALLBLS_FROMDATA.py:124
+msgid "The active dataset must have a dataset name in order to use this procedure"
+msgstr ""
+"Aktywny zbiór danych musi mieć nadaną nazwę, aby możliwe było użycie tej procedury"
+
+#: STATS_VALLBLS_FROMDATA.py:167
+msgid "Either a variable list or a pattern must be specified but not both: %s"
+msgstr ""
+"Konieczne jest podanie listy zmiennych lub wzoru, ale nie obydwu tych danych: %s"
+
+#: STATS_VALLBLS_FROMDATA.py:294
+msgid "No value labels were generated."
+msgstr ""
+"Nie wygenerowano etykiet wartości."
+
+#: STATS_VALLBLS_FROMDATA.py:311
+msgid "Generated label syntax was applied"
+msgstr ""
+"Zastosowano wygenerowaną składnię etykiet"
+
+#: STATS_VALLBLS_FROMDATA.py:313
+msgid "Generated label syntax was not applied"
+msgstr ""
+"Nie zastosowano wygenerowanej składni etykiet"
+
+#: STATS_VALLBLS_FROMDATA.py:314
+msgid "A conflict means that different labels would be applied to the same value."
+msgstr ""
+"Konflikt oznacza, że wobec tej samej wartości zostaną zastosowane różne etykiety."
+
+#: STATS_VALLBLS_FROMDATA.py:315
+msgid "A duplicate means that the same label was used for different values."
+msgstr ""
+"Duplikat oznacza, że dla różnych wartości zostanie zastosowana ta sama etykieta."
+
+#: STATS_VALLBLS_FROMDATA.py:317
+msgid "Value Label Generation"
+msgstr ""
+"Generowanie etykiet wartości"
+
+#: STATS_VALLBLS_FROMDATA.py:319
+msgid "Variable"
+msgstr ""
+"Zmienna"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Duplicate Labels"
+msgstr ""
+"Duplikuj etykiety"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Label Conflicts"
+msgstr ""
+"Konflikty etykiet"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Label Source"
+msgstr ""
+"Źródło etykiety"
+
+#: STATS_VALLBLS_FROMDATA.py:400
+msgid "The specified root name is too long: %s"
+msgstr ""
+"Określony trzon nazwy jest zbyt długi: %s"
+
+#: STATS_VALLBLS_FROMDATA.py:454
+msgid "Create dummy variables"
+msgstr ""
+"Utwórz sztuczne zmienne"
+
+#: STATS_VALLBLS_FROMDATA.py:574
+msgid "---"
+msgstr ""
+"---"
+
+
+
