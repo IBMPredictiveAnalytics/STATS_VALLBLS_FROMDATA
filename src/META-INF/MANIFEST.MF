@@ -1,0 +1,18 @@
+Name: STATS VALLBLS FROMDATA
+Dialog-Specs: STATS_VALLBLS_FROMDATA.spd
+Command-Specs: STATS_VALLBLS_FROMDATA.xml
+Code-Files: STATS_VALLBLS_FROMDATA.py
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Create value labels for variables from data
+Description: This command creates value labels for selected variables 
+ using other variables as the source of the labels.  The variables to 
+ label and the label source variables can be listed or selected using 
+ patterns in the names.  The labels can be applied directly by this co
+ mmand, but the VALUE LABEL syntax can also be written to a file.
+Author: JKP, IBM SPSS
+Version: 1.0.5
+Product-Version: 18
+Date: 1/20/14
+Categories: spss data_management
+Plugins: Python
+Translation-Catalogues: lang
