@@ -1,0 +1,147 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-05-21 17:51+China Standard Time\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: STATS_VALLBLS_FROMDATA.py:110
+msgid ""
+"This command requires a  newer version the spssaux module.  \n"
+"\n"
+"It can be obtained from the SPSS Community website (www.ibm.com/developerworks/spssdevcentral)"
+msgstr ""
+"このコマンドには新しいバージョンの spssaux モジュールが必要です。\n"
+"\n"
+"対象のモジュールは、SPSS Community Web サイト (www.ibm.com/developerworks/spssdevcentral) で入手できます"
+
+#: STATS_VALLBLS_FROMDATA.py:113
+msgid "variables to label"
+msgstr ""
+"ラベルを付ける変数"
+
+#: STATS_VALLBLS_FROMDATA.py:114
+msgid "label variables"
+msgstr ""
+"ラベル変数"
+
+#: STATS_VALLBLS_FROMDATA.py:116
+msgid ""
+"No variables to label or no labelling variables were specified.\n"
+"If a pattern was used, it may not have matched any variables."
+msgstr ""
+"ラベルを付ける変数またはラベル変数が指定されていません。\n"
+"パターンが使用された場合は、パターンがどの変数にも一致しなかった可能性があります。"
+
+#: STATS_VALLBLS_FROMDATA.py:119
+msgid "The number of label variables is different from the number of variables to label"
+msgstr ""
+"ラベル変数の数がラベルを付ける変数の数と異なっています"
+
+#: STATS_VALLBLS_FROMDATA.py:121
+msgid "The label variables must all have type string"
+msgstr ""
+"ラベル変数はすべて文字型でなければなりません"
+
+#: STATS_VALLBLS_FROMDATA.py:124
+msgid "The active dataset must have a dataset name in order to use this procedure"
+msgstr ""
+"この手順を使用するには、アクティブなデータセットにデータセット名が必要です"
+
+#: STATS_VALLBLS_FROMDATA.py:167
+msgid "Either a variable list or a pattern must be specified but not both: %s"
+msgstr ""
+"変数リストまたはパターンのいずれかを指定する必要がありますが、両方は指定できません: %s"
+
+#: STATS_VALLBLS_FROMDATA.py:294
+msgid "No value labels were generated."
+msgstr ""
+"値ラベルが生成されませんでした。"
+
+#: STATS_VALLBLS_FROMDATA.py:311
+msgid "Generated label syntax was applied"
+msgstr ""
+"生成されたラベル シンタックスが適用されました"
+
+#: STATS_VALLBLS_FROMDATA.py:313
+msgid "Generated label syntax was not applied"
+msgstr ""
+"生成されたラベル シンタックスが適用されませんでした"
+
+#: STATS_VALLBLS_FROMDATA.py:314
+msgid "A conflict means that different labels would be applied to the same value."
+msgstr ""
+"競合とは、同じ値に複数の異なるラベルが適用されることを意味します。"
+
+#: STATS_VALLBLS_FROMDATA.py:315
+msgid "A duplicate means that the same label was used for different values."
+msgstr ""
+"重複とは、同じラベルが複数の異なる値に使用されたことを意味します。"
+
+#: STATS_VALLBLS_FROMDATA.py:317
+msgid "Value Label Generation"
+msgstr ""
+"値ラベルの生成"
+
+#: STATS_VALLBLS_FROMDATA.py:319
+msgid "Variable"
+msgstr ""
+"変数"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Duplicate Labels"
+msgstr ""
+"重複するラベル"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Label Conflicts"
+msgstr ""
+"ラベルの競合"
+
+#: STATS_VALLBLS_FROMDATA.py:320
+msgid "Label Source"
+msgstr ""
+"ラベルのソース"
+
+#: STATS_VALLBLS_FROMDATA.py:400
+msgid "The specified root name is too long: %s"
+msgstr ""
+"指定したルート名は長すぎます: %s"
+
+#: STATS_VALLBLS_FROMDATA.py:454
+msgid "Create dummy variables"
+msgstr ""
+"ダミー変数の作成"
+
+#: STATS_VALLBLS_FROMDATA.py:574
+msgid "---"
+msgstr ""
+"---"
+
+
+
