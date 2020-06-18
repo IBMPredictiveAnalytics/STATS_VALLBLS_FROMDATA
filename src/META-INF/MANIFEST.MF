@@ -10,9 +10,11 @@ Description: This command creates value labels for selected variables
  patterns in the names.  The labels can be applied directly by this co
  mmand, but the VALUE LABEL syntax can also be written to a file.
 Author: JKP, IBM SPSS
-Version: 1.0.6
-Product-Version: 18
+Version: 2.0.0
+Product-Version: 24
 Date: 1/20/14
+Product-Version-Maximum: 99
 Categories: spss data_management
 Plugins: Python
+Python-Version: 3
 Translation-Catalogues: lang

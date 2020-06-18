@@ -4,14 +4,14 @@
 <!--                                                                   -->
 <!-- IBM SPSS Products: Statistics Common                              -->
 <!--                                                                   -->
-<!-- (C) Copyright IBM Corp. 1989, 2014                                -->
+<!-- (C) Copyright IBM Corp. 1989, 2020                                -->
 <!--                                                                   -->
 <!-- US Government Users Restricted Rights - Use, duplication or       -->
 <!-- disclosure restricted by GSA ADP Schedule Contract with IBM       -->
 <!-- Corp.                                                             -->
 <!--                                                                   -->
 <!-- ***************************************************************** -->
-<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extension-1.0.xsd" Name="STATS VALLBLS FROMDATA" Language="Python">
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extension-1.0.xsd" Name="STATS VALLBLS FROMDATA" Language="Python" LanguageVersion="3">
 	<Subcommand Name="" IsArbitrary="False" Occurrence="Optional">
 		<Parameter Name="VARIABLES" ParameterType="TokenList"/>
 		<Parameter Name="LBLVARS" ParameterType="TokenList"/>
