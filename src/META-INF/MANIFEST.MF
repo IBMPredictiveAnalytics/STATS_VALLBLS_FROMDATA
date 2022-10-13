@@ -1,4 +1,5 @@
 Name: STATS VALLBLS FROMDATA
+Display-Name: Value Labels from Data
 Dialog-Specs: STATS_VALLBLS_FROMDATA.spd
 Command-Specs: STATS_VALLBLS_FROMDATA.xml
 Code-Files: STATS_VALLBLS_FROMDATA.py
